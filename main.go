@@ -1,5 +1,5 @@
-// Name: YOUR_FIRSTNAME YOUR_SURNAME
-// Student ID: YOUR_STUDENT_ID
+// Name: Avemariya Perumadan Siju
+// Student ID: 241ADB033
 // Course: Go Programming Assignment – Concurrent Chunk Sorting (gosort)
 
 package main
