@@ -105,7 +105,7 @@ func runDirectory(dir string) error {
 		return errors.New("invalid directory")
 	}
 
-	outDir := dir + "_sorted_YOUR_FIRSTNAME_YOUR_SURNAME_YOUR_STUDENT_ID"
+	outDir := dir + "_sorted_Avemariya_Perumadan_Siju_241ADB033"
 	if err := os.MkdirAll(outDir, 0755); err != nil {
 		return err
 	}
@@ -122,7 +122,7 @@ func runDirectory(dir string) error {
 
 		inPath := filepath.Join(dir, e.Name())
 		numbers, err := readNumbersFromFile(inPath)
-		if err != nil || len(numbers) < 10 {
+		if err != nil {
 			continue
 		}
 
